@@ -12,6 +12,7 @@
     "@docusaurus/core": "^2.0.0-alpha.54",
     "@docusaurus/preset-bootstrap": "^2.0.0-alpha.54",
     "classnames": "^2.2.6",
+    "purgecss": "^2.1.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },

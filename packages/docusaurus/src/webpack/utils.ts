@@ -167,6 +167,7 @@ export function applyConfigureWebpack(
     return merge(config, configureWebpack);
   }
 
+  console.log('Here: ', config)
   // Export some utility functions
   const utils = {
     getStyleLoaders,

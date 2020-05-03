@@ -104,7 +104,7 @@ export async function start(
         postBodyTags,
       }),
       // This is necessary to emit hot updates for webpack-dev-server.
-      new HotModuleReplacementPlugin(),
+      new HotModuleReplacementPlugin()
     ],
   });
 
@@ -127,6 +127,7 @@ export async function start(
     compress: true,
     clientLogLevel: 'error',
     hot: true,
+
     hotOnly: cliOptions.hotOnly,
     // Use 'ws' instead of 'sockjs-node' on server since we're using native
     // websockets in `webpackHotDevClient`.
@@ -134,7 +135,7 @@ export async function start(
     // Prevent a WS client from getting injected as we're already including
     // `webpackHotDevClient`.
     injectClient: false,
-    quiet: true,
+    quiet: false,
     headers: {
       'access-control-allow-origin': '*',
     },

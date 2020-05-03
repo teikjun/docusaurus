@@ -8,10 +8,12 @@
     "access": "public"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.4.1",
+    "purgecss": "^2.1.2"
   },
   "peerDependencies": {
     "@docusaurus/core": "^2.0.0",
+    "glob": "^7.1.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "webpack": "^4.41.2"
