@@ -70,6 +70,11 @@ module.exports = {
       '@docusaurus/preset-bootstrap',
       {
         docs: {
+          showLastUpdateAuthor: true,
+          /**
+           * Whether to display the last date the doc was updated.
+           */
+          showLastUpdateTime: true,
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
